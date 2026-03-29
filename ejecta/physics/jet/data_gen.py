@@ -114,7 +114,7 @@ def main():
             print(f"Rejected on attempt {i}: {type(e).__name__}: {e}")
             continue
 
-    out = Path("prompt_bns_dataset_2.npz")
+    out = Path("prompt_bns_dataset_1m.npz")
     np.savez(out, X=X, Y=Y, Z=Z, t_grid=t_grid, y_floor=y_floor)
     print("Saved:", out.resolve())
 
