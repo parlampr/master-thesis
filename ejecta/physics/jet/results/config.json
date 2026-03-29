@@ -1,0 +1,28 @@
+{
+  "data_path": "prompt_bns_dataset_32k.npz",
+  "x_key": "X",
+  "y_key": "Y",
+  "hidden_dims": [
+    512,
+    1024,
+    1024,
+    1024,
+    1024,
+    1024,
+    512,
+    512
+  ],
+  "dropout": 0.02,
+  "batch_size": 512,
+  "lr": 0.0003,
+  "weight_decay": 1e-05,
+  "epochs": 1000,
+  "patience": 80,
+  "floor_value": -40.0,
+  "floor_weight": 0.05,
+  "peak_loss_w": 2.0,
+  "val_frac": 0.1,
+  "test_frac": 0.1,
+  "out_dir": "results",
+  "seed": 42
+}
