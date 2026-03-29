@@ -71,7 +71,7 @@ def main():
         # sample_distance=False,
     )
 
-    N = 2  # start small; scale later
+    N = 1000000  # start small; scale later
     X = np.zeros((N, 4), dtype=np.float32)
     Y = np.zeros((N, t_grid.size), dtype=np.float64)
     Z = np.zeros((N, t_grid.size), dtype=np.float64)
