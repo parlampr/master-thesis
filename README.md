@@ -1,3 +1,5 @@
+!!! MAKE SURE TO RUN FROM GEMMA ENVIRONMENT !!!
+
 To find the data generation file, in terminal:
 
 cd /ejecta/physics/jet
