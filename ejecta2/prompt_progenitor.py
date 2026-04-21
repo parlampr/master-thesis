@@ -34,7 +34,7 @@ class Prompt:
         components=("jet",),
         sample_gw_parameters=False,
         gw_param_mode="chirp_mass",
-        j_struct=None,
+        j_struct=2,
         eta_jet=1e-4,
         frac=0.1,
         phi_los_deg=0.0,
